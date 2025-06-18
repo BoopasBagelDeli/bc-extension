@@ -1,8 +1,13 @@
 # 🥖 My AL Project - Business Central Extension
 
+[![Build Status](https://github.com/BoopasBagelDeli/bc-extension/workflows/AL%20Build%20and%20Test/badge.svg)](https://github.com/BoopasBagelDeli/bc-extension/actions)
 [![AL Language](https://img.shields.io/badge/AL-Business%20Central-blue)](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-programming-in-al)
 [![Business Central](https://img.shields.io/badge/Business%20Central-22.0-green)](https://docs.microsoft.com/en-us/dynamics365/business-central/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://boopasbageldeli.github.io/bc-extension/)
+[![Issues](https://img.shields.io/github/issues/BoopasBagelDeli/bc-extension)](https://github.com/BoopasBagelDeli/bc-extension/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/BoopasBagelDeli/bc-extension)](https://github.com/BoopasBagelDeli/bc-extension/pulls)
+[![Bakery](https://img.shields.io/badge/Industry-Bakery-orange)](https://github.com/BoopasBagelDeli/bc-extension)
 
 A comprehensive Business Central extension demonstrating best practices for AL development, featuring robust error handling, data validation, and enterprise-grade code structure.
 

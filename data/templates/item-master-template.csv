@@ -1,0 +1,42 @@
+Item No.,Item Description,Item Category,Subcategory,Unit of Measure,Base Unit Cost,Current Inventory Qty,Reorder Point,Maximum Stock,Primary Supplier,Supplier Item Code,Storage Type,Storage Temperature (F),Shelf Life Days,FIFO Required,Allergen Info,Nutritional Category,Package Size,Package Type,Waste Percentage,Notes
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+
+ITEM CATEGORIES:
+- Raw Material
+- Packaging Material 
+- Work in Progress
+- Finished Good
+- Assembly Item
+
+STORAGE TYPES:
+- Dry Storage
+- Cooler (35-40F)
+- Freezer (0-10F)
+- Room Temperature
+- Retail Display
+
+ALLERGENS (check all that apply):
+- Gluten
+- Dairy/Milk
+- Eggs
+- Nuts (Tree Nuts)
+- Peanuts
+- Soy
+- Fish
+- Shellfish
+- Sesame
+
+INSTRUCTIONS:
+1. List EVERY item you currently use or sell
+2. Include ingredients, packaging, WIP items, and finished products
+3. Get current costs from recent invoices
+4. Measure current inventory levels
+5. Note any special storage or handling requirements
+6. Verify allergen information for food safety compliance
+
+EXAMPLES:
+RM-001,All Purpose Flour,Raw Material,Flour,LB,2.50,125,50,200,Bakery Supply Co,FL-AP-50,Dry Storage,70,365,Yes,Gluten,Grain,50,Bag,2%,Store in sealed containers
+WIP-001,Bread Dough - White,Work in Progress,Dough,LB,3.25,25,0,50,Internal Production,,Cooler,38,2,Yes,Gluten,Prepared Food,5,Batch,1%,Daily production item
+FG-001,White Bread Loaf,Finished Good,Bread,EA,4.99,35,10,50,Internal Production,,Retail Display,70,3,Yes,Gluten,Bakery,1,Loaf,0%,Signature product

@@ -1,0 +1,12 @@
+Item No.,Description,Item Category,Storage Type,Shelf Life Days,Allergens,Unit of Measure,Unit Cost,Reorder Point,Max Stock Level,Supplier,Supplier Item No.,Notes
+RM-001,All Purpose Flour,Raw Material,Dry Storage,365,"Gluten",LB,2.50,50,200,Supplier A,FL-AP-50,50lb bags
+RM-002,Granulated Sugar,Raw Material,Dry Storage,730,,LB,1.20,100,500,Supplier A,SG-GR-50,50lb bags
+RM-003,Unsalted Butter,Raw Material,Cooler,30,"Dairy",LB,4.50,20,100,Supplier B,BT-UN-1,1lb blocks
+RM-004,Large Eggs,Raw Material,Cooler,21,"Eggs",EA,0.25,60,240,Supplier B,EG-LG-DZ,Sold by dozen
+RM-005,Active Dry Yeast,Raw Material,Dry Storage,365,,LB,8.00,5,25,Supplier C,YE-AD-1,1lb packages
+WIP-001,Bread Dough - White,Work in Progress,Cooler,2,,LB,3.20,0,50,,,"Made from RM-001, RM-002, RM-005"
+WIP-002,Pastry Dough,Work in Progress,Cooler,3,"Gluten, Dairy",LB,4.80,0,30,,,"Made from RM-001, RM-003, RM-004"
+FG-001,White Bread Loaf,Finished Good,Retail Display,3,"Gluten",EA,4.99,10,50,,,"Made from WIP-001"
+FG-002,Croissant,Finished Good,Retail Display,2,"Gluten, Dairy",EA,2.99,20,100,,,"Made from WIP-002"
+PKG-001,Bread Bags,Packaging,Dry Storage,,,EA,0.05,100,1000,Supplier D,BG-BR-100,Clear plastic bags
+PKG-002,Pastry Boxes,Packaging,Dry Storage,,,EA,0.75,50,500,Supplier D,BX-PS-12,12-count boxes

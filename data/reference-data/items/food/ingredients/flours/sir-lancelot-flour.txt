@@ -1,0 +1,52 @@
+ITEM PROFILE
+============
+
+Sir Lancelot Flour
+------------------
+Brand: King Arthur Baking Company
+Product Name: Sir Lancelot High-Gluten Flour
+Type: High-Gluten Bread Flour
+SKU/Item Code: [TO BE ADDED]
+Supplier: Dawn Foods / Sysco
+
+Pricing Information
+-------------------
+Dawn Foods: $23.84
+Sysco: [TO BE ADDED]
+
+Specifications
+--------------
+Protein Content: 14.2% (high-gluten)
+Ash Content: 0.53%
+Moisture: 11.5% max
+Falling Number: 300+ seconds
+Source: Hard red spring wheat
+Contains: Malted barley flour
+
+Package Information
+-------------------
+Available Sizes: 50 lb bags
+Current Size Used: 50 lb bags
+Storage: Cool, dry place
+Shelf Life: 8 months from purchase
+
+Uses
+----
+- Bagels
+- Pizza dough
+- Artisan breads
+- Chewy breads
+
+Nutritional Info (per 1/4 cup)
+------------------------------
+Calories: 110
+Protein: 4g
+Carbohydrates: 22g
+Fiber: 1g
+Fat: 0g
+Sodium: 0mg
+Iron: 1.2mg
+
+Notes
+-----
+High-gluten flour for enhanced dough strength and chewiness

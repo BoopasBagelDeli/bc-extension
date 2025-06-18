@@ -1,0 +1,70 @@
+Recipe No.,Recipe Name,Recipe Category,Recipe Type,Batch Size,Batch UOM,Prep Time (min),Bake Time (min),Cool Time (min),Total Time (min),Yield Quantity,Yield UOM,Serving Size,Servings per Batch,Shelf Life Days,Storage Requirements,Recipe Cost,Target Selling Price,Target Food Cost %,Recipe Status,Created Date,Last Modified,Created By,Notes
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+
+Recipe No.,Component Type,Component Item No.,Component Description,Quantity Required,Component UOM,Waste Percentage,Cost per Unit,Extended Cost,Substitution Allowed,Alternative Component,Preparation Notes
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+
+RECIPE CATEGORIES:
+- Bread
+- Pastries
+- Cakes
+- Cookies
+- Pies
+- Muffins
+- Specialty Items
+- Assembly Items
+- Seasonal Items
+
+RECIPE TYPES:
+- Production Recipe (Raw → WIP)
+- Finishing Recipe (WIP → Finished)
+- Assembly Recipe (Multiple items → Final product)
+- Packaging Recipe (Finished → Retail ready)
+
+COMPONENT TYPES:
+- Raw Material
+- Work in Progress
+- Packaging
+- Labor
+- Overhead
+
+RECIPE STATUS:
+- Active
+- Inactive
+- Testing
+- Seasonal
+- Discontinued
+
+STORAGE REQUIREMENTS:
+- Room Temperature
+- Refrigerated
+- Frozen
+- Display Case
+- Custom Temperature
+
+INSTRUCTIONS:
+1. Document EVERY recipe you currently use
+2. Include all ingredients with exact quantities
+3. Account for waste/loss in measurements
+4. Calculate current costs based on ingredient prices
+5. Include prep time, bake time, and cooling time
+6. Note any special equipment or techniques required
+7. Include assembly recipes for complex items
+
+COSTING CALCULATION:
+- Component Cost = Quantity × Unit Cost × (1 + Waste %)
+- Recipe Cost = Sum of all component costs
+- Target Food Cost % = (Recipe Cost ÷ Selling Price) × 100
+
+EXAMPLES:
+RCP-001,White Bread,Bread,Production Recipe,2,Loaves,30,45,60,135,2,Loaves,1,2,3,Room Temperature,6.40,9.98,64.1%,Active,1/1/2024,6/1/2025,Head Baker,Signature bread recipe
+
+RCP-001,Raw Material,RM-001,All Purpose Flour,2.5,LB,2%,2.50,6.38,No,,Sift before use
+RCP-001,Raw Material,RM-002,Granulated Sugar,0.25,LB,0%,1.20,0.30,Yes,RM-003 (Brown Sugar),Can substitute brown sugar
+RCP-001,Raw Material,RM-005,Active Dry Yeast,0.05,LB,0%,8.00,0.40,No,,Proof before use
+RCP-001,Raw Material,WATER,Water,1.2,Cups,0%,0.00,0.00,No,,Room temperature
+RCP-001,Raw Material,SALT,Salt,0.02,LB,0%,1.00,0.02,No,,Fine salt preferred

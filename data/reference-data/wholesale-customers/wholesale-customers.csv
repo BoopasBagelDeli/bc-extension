@@ -1,0 +1,6 @@
+Customer No.,Customer Name,Customer Type,Contact Name,Phone,Email,Address,City,State,ZIP,Payment Terms,Credit Limit,Account Manager,Notes
+CUST-001,Walk-in Customer,Retail,,,,,,,,,0,,Default retail customer
+WSL-001,Corner Cafe,Wholesale,Mike Davis,555-0201,mike@cornercafe.com,100 Main Street,Downtown,NY,12349,Net 15,5000,Owner,Daily bread delivery
+WSL-002,Grand Hotel,Wholesale,Sarah Lee,555-0202,sarah@grandhotel.com,200 Hotel Drive,Uptown,NY,12350,Net 30,10000,Owner,Weekly pastry orders
+CAT-001,Elite Events,Catering,Jennifer White,555-0301,jen@eliteevents.com,300 Event Plaza,Eventville,NY,12351,Net 15,15000,Owner,Large catering orders
+CAT-002,ABC Corporation,Catering,Tom Green,555-0302,tom@abccorp.com,400 Business Park,Corporate City,NY,12352,Net 30,8000,Owner,Corporate catering events

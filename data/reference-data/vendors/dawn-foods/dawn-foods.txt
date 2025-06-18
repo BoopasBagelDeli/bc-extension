@@ -1,0 +1,16 @@
+SUPPLIER LIST
+=============
+
+Dawn Foods
+----------
+Contact: Tara McLeish
+Phone: 469-690-8639
+Address: 3353 Miller Park S #100
+         Garland, TX 75042
+
+Ordering: Tuesdays by 10:00 AM CST
+Delivery: Wednesdays ~4:30 AM
+
+Status: Active
+Category: Food Supplier
+Notes: Specialty ingredients and baking supplies

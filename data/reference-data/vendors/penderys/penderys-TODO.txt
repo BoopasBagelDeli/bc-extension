@@ -1,0 +1,15 @@
+SUPPLIER LIST - **TODO: ADD CONTACT DATA**
+==========================================
+
+Penderys
+--------
+Contact: [TO BE ADDED]
+Phone: [TO BE ADDED]
+Address: [TO BE ADDED]
+
+Ordering: [TO BE ADDED]
+Delivery: [TO BE ADDED]
+
+Status: Pending Information
+Category: Spice/Seasoning Supplier
+Notes: **REMINDER: Complete contact and delivery information**

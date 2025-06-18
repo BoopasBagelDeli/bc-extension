@@ -1,0 +1,99 @@
+# Data Collection Guide - Toast POS Integration
+
+## Current Toast Menu Items
+*Document every item currently in your Toast POS system*
+
+Toast Item ID,Toast Item Name,Toast Category,Toast Price,BC Item No.,BC Item Description,Mapping Status,Inventory Tracked,Notes
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+
+## Toast Categories
+*List all categories used in Toast*
+
+Toast Category,BC Category,Description,Active
+,,,,
+,,,,
+
+## Toast Modifiers
+*Document all modifiers (add-ons, customizations)*
+
+Modifier Name,Modifier Price,Applies to Items,BC Impact,Notes
+,,,,
+,,,,
+
+## Toast Tax Settings
+Tax Name,Tax Rate,Applies to Categories,BC Tax Group
+,,,
+,,,
+
+## Toast Payment Methods
+Payment Method,Active,BC Integration Required,Notes
+,,,
+,,,
+
+---
+
+# Data Collection Guide - Delivery Platform Integration
+
+## Uber Eats Menu Items
+Platform Item ID,Platform Item Name,Platform Category,Platform Price,Platform Commission %,BC Item Mapping,Active Status,Notes
+,,,,,,
+,,,,,,
+
+## GrubHub Menu Items  
+Platform Item ID,Platform Item Name,Platform Category,Platform Price,Platform Commission %,BC Item Mapping,Active Status,Notes
+,,,,,,
+,,,,,,
+
+## DoorDash Menu Items
+Platform Item ID,Platform Item Name,Platform Category,Platform Price,Platform Commission %,BC Item Mapping,Active Status,Notes
+,,,,,,
+,,,,,,
+
+## EZ Catering Items
+Platform Item ID,Platform Item Name,Platform Category,Platform Price,Minimum Order,BC Item Mapping,Active Status,Notes
+,,,,,,
+,,,,,,
+
+---
+
+# Nutritional Information Collection
+
+## Items Requiring Nutritional Labels
+*All items sold to consumers need nutritional information*
+
+Item No.,Item Name,Serving Size,Calories,Total Fat (g),Saturated Fat (g),Trans Fat (g),Cholesterol (mg),Sodium (mg),Total Carbs (g),Dietary Fiber (g),Total Sugars (g),Added Sugars (g),Protein (g),Vitamin D (mcg),Calcium (mg),Iron (mg),Potassium (mg),Data Source,Last Updated
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+
+## Allergen Information Detail
+Item No.,Item Name,Contains Gluten,Contains Dairy,Contains Eggs,Contains Tree Nuts,Contains Peanuts,Contains Soy,Contains Fish,Contains Shellfish,Contains Sesame,May Contain (Cross-contamination),Allergen Statement,Verified Date
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+
+## Data Sources for Nutritional Information
+- Supplier nutrition facts
+- Recipe calculation software
+- Laboratory testing
+- USDA nutrient database
+- Ingredient manufacturer data
+
+## Instructions
+1. **Toast Integration**: Export current menu from Toast system
+2. **Delivery Platforms**: Gather menu data from each platform
+3. **Nutritional Data**: Collect from suppliers or calculate from recipes
+4. **Allergen Info**: Critical for food safety - verify all sources
+5. **Cross-reference**: Ensure all items match between systems
+
+## Platform Commission Rates (verify current rates)
+- Uber Eats: 15-30% (varies by package)
+- GrubHub: 15-30% (varies by package)
+- DoorDash: 15-30% (varies by package)  
+- EZ Catering: 3-8% (verify current rate)
+
+## Integration Priority
+1. **Phase 1**: Toast POS (daily sales critical)
+2. **Phase 2**: EZ Catering (largest orders)  
+3. **Phase 3**: Major delivery platforms
+4. **Phase 4**: Nutritional database integration

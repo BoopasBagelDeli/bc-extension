@@ -1,0 +1,66 @@
+Item No.,Item Description,Sales Channel,Customer Type,Price Level,Unit Price,Unit of Measure,Minimum Quantity,Maximum Quantity,Effective Date,Expiration Date,Discount Percentage,Promotional Price,Promotional Start,Promotional End,Commission Fee,Platform Fee,Notes
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+
+SALES CHANNELS:
+- Retail Walk-in
+- Wholesale Direct
+- Catering Orders
+- Uber Eats
+- GrubHub
+- DoorDash
+- EZ Catering
+- Phone Orders
+- Online Store
+
+CUSTOMER TYPES:
+- Retail Customer
+- Wholesale Tier 1
+- Wholesale Tier 2  
+- Wholesale Tier 3
+- Catering Client
+- VIP Customer
+- Employee Discount
+
+PRICE LEVELS:
+- Standard Retail
+- Wholesale Discount
+- Volume Discount
+- Catering Premium
+- Platform Pricing
+- Promotional Pricing
+
+PRICING STRATEGY NOTES:
+- Retail prices include full margin
+- Wholesale prices reduce margin but increase volume
+- Catering prices include service premium
+- Platform prices account for commission fees
+- Promotional prices drive traffic and reduce waste
+
+COMMISSION/PLATFORM FEES:
+- Uber Eats: 15-30% commission
+- GrubHub: 15-30% commission  
+- DoorDash: 15-30% commission
+- EZ Catering: 3-8% commission
+- Credit Card Processing: 2.9% + $0.30
+
+PRICING CALCULATION EXAMPLE:
+Base Cost: $2.85 (recipe cost)
+Target Food Cost: 30%
+Retail Price: $2.85 ÷ 0.30 = $9.50
+Platform Price: $9.50 ÷ (1 - 0.25) = $12.67 (to cover 25% commission)
+
+INSTRUCTIONS:
+1. Set competitive retail prices for walk-in customers
+2. Calculate wholesale discounts to encourage volume
+3. Add premium for catering to cover service
+4. Adjust platform prices to cover commission fees
+5. Plan promotional pricing for slow-moving items
+6. Consider seasonal pricing adjustments
+
+EXAMPLES:
+FG-001,White Bread Loaf,Retail Walk-in,Retail Customer,Standard Retail,4.99,EA,1,999,1/1/2024,12/31/2025,0%,,,,,Standard retail price
+FG-001,White Bread Loaf,Wholesale Direct,Wholesale Tier 1,Wholesale Discount,4.49,EA,12,999,1/1/2024,12/31/2025,10%,,,,,Minimum 1 dozen order
+FG-001,White Bread Loaf,Uber Eats,Retail Customer,Platform Pricing,6.49,EA,1,999,1/1/2024,12/31/2025,0%,,,,30%,Higher price to cover commission
+FG-001,White Bread Loaf,Catering Orders,Catering Client,Catering Premium,5.99,EA,24,999,1/1/2024,12/31/2025,0%,,,,,"Premium pricing for catering, minimum 2 dozen"

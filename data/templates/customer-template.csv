@@ -1,0 +1,77 @@
+Customer No.,Customer Name,Customer Type,Contact Person,Title,Phone Number,Email Address,Street Address,City,State,ZIP Code,Business Type,Sales Channel,Payment Terms,Credit Limit,Delivery Required,Delivery Days,Delivery Fee,Pricing Level,Discount Percentage,Account Manager,Preferred Contact Method,Order Frequency,Average Order Size,Annual Revenue,Customer Since,Last Order Date,Customer Status,Special Requirements,Notes
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+CUSTOMER TYPES:
+- Retail Walk-in
+- Wholesale Account
+- Catering Client
+- Online Customer
+- Delivery Customer
+
+SALES CHANNELS:
+- In-Store Retail
+- Wholesale Direct
+- Catering Orders
+- Uber Eats
+- GrubHub
+- DoorDash
+- EZ Catering
+- Phone Orders
+- Online Orders
+
+BUSINESS TYPES (for wholesale/catering):
+- Restaurant
+- Cafe
+- Hotel
+- Catering Company
+- Event Planner
+- Corporate Office
+- School/Institution
+- Grocery Store
+- Farmers Market
+
+PAYMENT TERMS:
+- Cash
+- Credit Card
+- Net 15
+- Net 30
+- COD
+
+PRICING LEVELS:
+- Retail
+- Wholesale Tier 1 (5% discount)
+- Wholesale Tier 2 (10% discount)
+- Wholesale Tier 3 (15% discount)
+- Catering (custom pricing)
+
+DELIVERY SCHEDULES:
+- Daily
+- Monday, Wednesday, Friday
+- Tuesday, Thursday
+- Weekly
+- Bi-weekly
+- As Needed
+- Same Day
+- Next Day
+
+CUSTOMER STATUS:
+- Active
+- Inactive
+- On Hold
+- Prospect
+- VIP
+
+INSTRUCTIONS:
+1. List ALL customers including walk-in retail (can use generic entry)
+2. Include wholesale accounts, catering clients, and delivery customers
+3. Gather contact information and payment history
+4. Note delivery requirements and special arrangements
+5. Include customer preferences and ordering patterns
+6. Rate customers by volume and profitability
+
+EXAMPLES:
+RETAIL-001,Walk-in Customer,Retail Walk-in,,,,,,,,,Cash Sales,In-Store Retail,Cash,0,No,,,Retail,0%,Counter Staff,In-Person,Daily,25,15000,1/1/2020,,Active,None,Default retail customer for POS
+WSL-001,Corner Cafe,Wholesale Account,Mike Davis,Owner,555-0201,mike@cornercafe.com,100 Main Street,Downtown,NY,12349,Restaurant,Wholesale Direct,Net 15,5000,Yes,"Mon, Wed, Fri",10,Wholesale Tier 1,5%,Owner,Email,3x weekly,200,25000,3/15/2023,6/15/2025,Active,Early morning delivery preferred,Excellent wholesale customer - always pays on time
+CAT-001,Elite Events,Catering Client,Jennifer White,Event Manager,555-0301,jen@eliteevents.com,300 Event Plaza,Eventville,NY,12351,Catering Company,Catering Orders,Net 15,15000,Yes,As Needed,25,Catering,Custom,Owner,Phone,Weekly,800,45000,8/1/2022,6/10/2025,VIP,48-hour notice required,High-end catering - premium pricing

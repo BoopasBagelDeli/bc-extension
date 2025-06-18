@@ -1,0 +1,18 @@
+Recipe No.,Recipe Name,Category,Batch Size,Unit of Measure,Prep Time (min),Bake Time (min),Total Time (min),Yield Qty,Cost per Batch,Selling Price,Profit Margin %
+RCP-001,White Bread,Bread,2,Loaves,30,45,75,2,6.40,9.98,35.9
+RCP-002,Whole Wheat Bread,Bread,2,Loaves,35,50,85,2,7.20,11.98,39.9
+RCP-003,Croissants,Pastry,12,Pieces,120,18,138,12,14.40,35.88,59.9
+RCP-004,Chocolate Chip Cookies,Cookie,24,Pieces,20,12,32,24,8.50,47.76,82.2
+RCP-005,Apple Pie,Pie,1,Pie,45,60,105,1,12.75,24.99,49.0
+
+Recipe No.,Component Item No.,Component Description,Quantity,Unit of Measure,Waste %,Notes
+RCP-001,RM-001,All Purpose Flour,2.5,LB,2,Main ingredient
+RCP-001,RM-002,Granulated Sugar,0.25,LB,0,Sweetness
+RCP-001,RM-005,Active Dry Yeast,0.05,LB,0,Leavening agent
+RCP-001,WATER,Water,1.2,Cups,0,Liquid
+RCP-001,SALT,Salt,0.02,LB,0,Flavor enhancer
+RCP-002,RM-006,Whole Wheat Flour,2.5,LB,2,Main ingredient
+RCP-002,RM-002,Granulated Sugar,0.25,LB,0,Sweetness
+RCP-002,RM-005,Active Dry Yeast,0.05,LB,0,Leavening agent
+RCP-002,WATER,Water,1.3,Cups,0,Liquid - more needed for wheat
+RCP-002,SALT,Salt,0.02,LB,0,Flavor enhancer

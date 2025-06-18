@@ -1,0 +1,5 @@
+Vendor No.,Vendor Name,Contact Name,Phone,Email,Address,City,State,ZIP,Payment Terms,Delivery Days,Product Categories,Certification Status,Contract End Date,Notes
+VEN-001,Bakery Supply Co,John Smith,555-0101,john@bakerysupply.com,123 Flour Street,Bakerville,NY,12345,Net 30,"Mon, Wed, Fri","Flour, Sugar, Yeast",Certified,12/31/2025,Primary dry goods supplier
+VEN-002,Fresh Dairy Farms,Mary Johnson,555-0102,mary@freshdairy.com,456 Milk Lane,Dairytown,NY,12346,Net 15,"Tue, Thu, Sat","Butter, Eggs, Milk",Certified,6/30/2026,Primary dairy supplier
+VEN-003,Specialty Ingredients Inc,Bob Wilson,555-0103,bob@specialtyingredients.com,789 Flavor Avenue,Spiceville,NY,12347,Net 30,Mon-Fri,"Extracts, Spices, Specialty Items",Certified,3/31/2026,Specialty and organic ingredients
+VEN-004,Packaging Solutions,Lisa Brown,555-0104,lisa@packagingsolutions.com,321 Box Boulevard,Packagetown,NY,12348,Net 30,Wed,"Bags, Boxes, Labels",Active,9/15/2025,All packaging materials

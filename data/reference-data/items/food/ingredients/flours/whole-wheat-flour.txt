@@ -1,0 +1,54 @@
+ITEM PROFILE
+============
+
+Whole Wheat Flour
+------------------------------
+Brand: Ardent Mills
+Product Name: Whole Wheat Flour
+Type: 100% Whole Wheat Flour
+SKU/Item Code: [TO BE ADDED]
+Supplier: [TO BE ADDED]
+
+Pricing Information
+-------------------
+[TO BE ADDED]
+
+Specifications
+--------------
+Protein Content: 13.0-14.0% (high protein)
+Ash Content: 1.4-1.8%
+Moisture: 14.5% max
+Falling Number: 250+ seconds
+Source: Hard red winter wheat
+Contains: Whole wheat flour (wheat bran, wheat germ, wheat endosperm)
+
+Package Information
+-------------------
+Available Sizes: 50 lb bags
+Current Size Used: 50 lb bags
+Storage: Cool, dry place, refrigerate for longer storage
+Shelf Life: 3-6 months (shorter due to wheat germ oil content)
+
+Uses
+----
+- Whole wheat breads
+- Artisan breads
+- Pizza dough
+- Hearty muffins
+- Pancakes and waffles
+- Pasta
+
+Nutritional Info (per 1/4 cup)
+------------------------------
+Calories: 110
+Protein: 4g
+Carbohydrates: 22g
+Fiber: 4g
+Fat: 1g
+Sodium: 0mg
+Iron: 1.1mg
+Folate: 13mcg
+
+Notes
+-----
+100% whole wheat flour containing all parts of the wheat kernel - bran, germ, and endosperm. Higher fiber and protein than white flour. Shorter shelf life due to natural oils in wheat germ.

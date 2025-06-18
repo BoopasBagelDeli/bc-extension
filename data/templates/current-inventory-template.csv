@@ -1,0 +1,57 @@
+Current Inventory Date:,
+Location:,
+Counted By:,
+Verified By:,
+
+Item No.,Item Description,Storage Location,Lot/Batch No.,Expiration Date,Unit of Measure,Current Quantity,Unit Cost,Extended Value,Days Until Expiration,Action Required,Notes
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+
+STORAGE LOCATIONS:
+- DRY-MAIN (Main Dry Storage)
+- DRY-BULK (Bulk Dry Storage)  
+- COOL-MAIN (Walk-in Cooler)
+- COOL-PREP (Prep Cooler)
+- FREEZE-MAIN (Main Freezer)
+- FREEZE-ICE (Ice Cream Freezer)
+- RETAIL-DISP (Retail Display)
+- RETAIL-BACK (Retail Back Stock)
+- PROD-AREA (Production Area)
+- PACK-AREA (Packaging Area)
+
+ACTION REQUIRED CODES:
+- OK (No action needed)
+- REORDER (Below reorder point)
+- URGENT (Critical low stock)
+- EXPIRE-7 (Expires within 7 days)
+- EXPIRE-3 (Expires within 3 days)
+- EXPIRE-1 (Expires within 1 day)
+- EXPIRED (Past expiration)
+- WASTE (Mark for disposal)
+- DISCOUNT (Markdown pricing)
+- FIFO (Use first priority)
+
+INVENTORY COUNTING INSTRUCTIONS:
+1. Count everything currently in stock
+2. Check expiration dates on ALL perishable items
+3. Note lot/batch numbers for traceability
+4. Record exact storage locations
+5. Calculate days until expiration
+6. Flag items requiring immediate action
+7. Verify costs against recent invoices
+8. Take photos of any questionable items
+
+CRITICAL FOCUS AREAS:
+- All dairy products (short shelf life)
+- Fresh eggs and egg products
+- Yeast and leavening agents
+- Produce and fresh ingredients
+- Work-in-progress items
+- Finished goods in display cases
+
+EXAMPLE ENTRIES:
+RM-001,All Purpose Flour,DRY-MAIN,LOT240615,12/15/2025,LB,125,2.50,312.50,179,OK,Good condition - sealed bags
+RM-003,Unsalted Butter,COOL-MAIN,LOT240610,7/10/2025,LB,28,4.50,126.00,22,OK,Properly refrigerated
+FG-001,White Bread Loaf,RETAIL-DISP,,6/20/2025,EA,15,2.85,42.75,2,EXPIRE-3,Mark down for quick sale
+WIP-001,Bread Dough - White,COOL-PREP,BATCH240618,6/19/2025,LB,12,3.25,39.00,1,EXPIRE-1,Use for tomorrow's production

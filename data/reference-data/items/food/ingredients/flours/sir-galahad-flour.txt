@@ -1,0 +1,54 @@
+ITEM PROFILE
+============
+
+Sir Galahad Flour
+-----------------
+Brand: King Arthur Baking Company
+Product Name: Sir Galahad Artisan Flour
+Type: Unbleached All-Purpose Flour
+SKU/Item Code: [TO BE ADDED]
+Supplier: Dawn Foods / Sysco
+
+Pricing Information
+-------------------
+Dawn Foods: $18.85
+Sysco: [TO BE ADDED]
+
+Specifications
+--------------
+Protein Content: 11.7% (moderate protein)
+Ash Content: 0.48%
+Moisture: 11.5% max
+Falling Number: 300+ seconds
+Source: Hard red winter wheat
+Contains: Unbleached wheat flour, malted barley flour
+
+Package Information
+-------------------
+Available Sizes: 50 lb bags
+Current Size Used: 50 lb bags
+Storage: Cool, dry place
+Shelf Life: 8 months from purchase
+
+Uses
+----
+- Cakes
+- Pastries
+- Cookies
+- Muffins
+- Quick breads
+- General baking
+
+Nutritional Info (per 1/4 cup)
+------------------------------
+Calories: 100
+Protein: 3g
+Carbohydrates: 22g
+Fiber: 1g
+Fat: 0g
+Sodium: 0mg
+Iron: 1.2mg
+
+Notes
+-----
+Premium unbleached all-purpose flour ideal for tender baked goods

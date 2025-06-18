@@ -1,0 +1,21 @@
+CUSTOMER PROFILE
+================
+
+Re:Defined Coffee House
+-----------------------
+Customer Type: Wholesale
+Business Type: Cafe
+Contact: [TO BE ADDED]
+Phone: [TO BE ADDED]
+Email: [TO BE ADDED]
+Address: [TO BE ADDED]
+
+Payment Terms: [TO BE ADDED]
+Credit Limit: [TO BE ADDED]
+Delivery Required: [TO BE ADDED]
+Order Frequency: [TO BE ADDED]
+Pricing Level: [TO BE ADDED]
+
+Status: Active
+Account Manager: [TO BE ADDED]
+Notes: Coffee house - wholesale account

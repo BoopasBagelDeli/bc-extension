@@ -1,0 +1,17 @@
+SUPPLIER LIST
+=============
+
+Sysco
+-----
+Contact: Robert Cox
+Phone: 806-577-9275
+Email: robert.cox@sysco.com
+Address: 800 Trinity Dr
+         Lewisville, TX 75056
+
+Ordering: Wednesdays by 4:00 PM
+Delivery: Thursdays ~1:00 AM
+
+Status: Active
+Category: Food Supplier
+Notes: Food service distribution

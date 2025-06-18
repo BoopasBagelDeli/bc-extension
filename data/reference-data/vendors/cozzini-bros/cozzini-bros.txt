@@ -1,0 +1,16 @@
+SUPPLIER LIST
+=============
+
+Cozzini Bros.
+-------------
+Contact: Adrian Aguero
+Phone: 888-846-7785
+Address: 8430 W Bryn Mawr Ave Ste 800
+         Chicago, IL 60631
+
+Service: Knife exchange/sharpening every two weeks
+Delivery: On-site service
+
+Status: Active
+Category: Equipment Service
+Notes: Knife sharpening and exchange service

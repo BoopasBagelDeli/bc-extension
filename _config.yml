@@ -1,0 +1,60 @@
+title: "Boopa's Bagel Deli - Business Central Extension"
+description: "Professional Business Central AL extension for bakery operations with comprehensive documentation and best practices"
+url: "https://boopasbageldeli.github.io"
+baseurl: "/bc-extension"
+
+# Theme
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site settings
+author:
+  name: "Boopa's Bagel Deli"
+  email: "nic@boopasbageldeli.com"
+
+# Social links
+github_username: BoopasBagelDeli
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+header_pages:
+  - README.md
+  - docs/BEST_PRACTICES.md
+  - docs/ERROR_HANDLING_GUIDE.md
+  - CONTRIBUTING.md
+
+# Exclude from processing
+exclude:
+  - .github/
+  - .vscode/
+  - .alpackages/
+  - src/
+  - "*.app"
+  - node_modules/
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile*
+  - LICENSE
+  - app.json
+  - ruleset.json
+
+# SEO
+seo:
+  type: Organization

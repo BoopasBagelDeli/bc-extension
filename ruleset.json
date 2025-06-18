@@ -1,0 +1,31 @@
+{
+    "name": "My AL Project Rules",
+    "description": "Custom ruleset for AL project",
+    "rules": [
+        {
+            "id": "AA0001",
+            "action": "Warning",
+            "justification": "There must be exactly one space character on each side of a binary operator such as := + - AND OR =."
+        },
+        {
+            "id": "AA0002",
+            "action": "Warning",
+            "justification": "There must be no space character."
+        },
+        {
+            "id": "AA0005",
+            "action": "Warning",
+            "justification": "Only use BEGIN..END to enclose compound statements."
+        },
+        {
+            "id": "LC0001",
+            "action": "Warning",
+            "justification": "FlowFields should not be editable."
+        },
+        {
+            "id": "LC0002",
+            "action": "Warning",
+            "justification": "Commit() should not be used in upgrade code."
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  release:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+      
+    - name: Setup AL
+      uses: microsoft/AL-Go-Actions/AL-Go-PipelineInitialize@v4.0
+      
+    - name: Build Release
+      uses: microsoft/AL-Go-Actions/BuildAL@v4.0
+      with:
+        shell: powershell
+        
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        body: |
+          ## Changes
+          - Automated release from tag
+          
+          ## Files
+          - AL Extension Package (.app file)
+          - Documentation updates
+        draft: false
+        prerelease: false
+        
+    - name: Upload Release Assets
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./**/*.app
+        asset_name: MyALProject.app
+        asset_content_type: application/octet-stream

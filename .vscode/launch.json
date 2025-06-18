@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BC Online AAD",
+            "type": "al",
+            "request": "launch",
+            "server": "https://businesscentral.dynamics.com",
+            "authentication": "AAD",
+            "tenant": "44be3eea-1c8f-4779-a077-0f28cc610be3",
+            "environmentType": "Sandbox",
+            "environmentName": "bc-sandbox",
+            "startupObjectId": 50100,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "schemaUpdateMode": "Synchronize"
+        }
+    ]
+}

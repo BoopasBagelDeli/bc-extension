@@ -1,0 +1,77 @@
+# AL/Business Central specific files
+*.app
+*.flf
+.alpackages/
+rad.json
+**/translation/*.xlf
+
+# VS Code workspace files
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/extensions.json
+
+# Build and compilation artifacts
+objfolder/
+**/.alcache/
+**/.snapshots/
+
+# AL Language Extension files
+**/.alcache
+**/.altemplates
+**/.alpackages
+
+# Business Central specific
+launch.json.backup
+*.bak
+
+# Azure DevOps
+azure-pipelines.yml.backup
+
+# Temporary files
+*.tmp
+*.temp
+**/.DS_Store
+Thumbs.db
+
+# Environment specific files
+local.settings.json
+appsettings.local.json
+
+# Secret files (if any)
+*.secret
+.env
+.env.local
+
+# Log files
+*.log
+logs/
+
+# Package files
+node_modules/
+*.zip
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+/src/translations/
+/src/.vscode/
+/src/*.app
+
+# Log files
+*.log
+
+# Temporary files
+**/temp/
+**/.temp/
+
+# Cache
+**/.cache/
+
+# Symbol files
+*.al-temp
+
+# Package files
+*.navx
+*.fob

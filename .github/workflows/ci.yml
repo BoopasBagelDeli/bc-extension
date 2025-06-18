@@ -1,0 +1,64 @@
+name: AL Build and Test
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+      
+    - name: Setup AL
+      uses: microsoft/AL-Go-Actions/AL-Go-PipelineInitialize@v4.0
+      with:
+        shell: powershell
+        
+    - name: Read Settings
+      uses: microsoft/AL-Go-Actions/ReadSettings@v4.0
+      
+    - name: Build AL Project
+      uses: microsoft/AL-Go-Actions/BuildAL@v4.0
+      with:
+        shell: powershell
+        
+    - name: Run AL Tests
+      uses: microsoft/AL-Go-Actions/RunAL@v4.0
+      with:
+        shell: powershell
+        
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: build-artifacts
+        path: |
+          **/*.app
+          **/*.runtime.txt
+          **/*.dependencies.txt
+        
+  code-analysis:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+      
+    - name: AL Code Analysis
+      uses: microsoft/AL-Go-Actions/CheckForUpdates@v4.0
+      with:
+        shell: powershell
+        
+    - name: Security Scan
+      uses: github/super-linter@v4
+      env:
+        DEFAULT_BRANCH: main
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        VALIDATE_AL: true
+        VALIDATE_JSON: true
+        VALIDATE_MARKDOWN: true
